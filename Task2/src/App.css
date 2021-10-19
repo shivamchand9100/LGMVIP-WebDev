@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  background-image:url("./win3.jpg");
+}
+.navbar{
+  display: flex;
+  /*top: 0;*/
+  justify-content: space-between;
+  margin:4rem;
+  width: 1360px;
+  cursor: pointer;
+  background-color:black;
+} 
+
+button{
+  right: 43%;
+  top:17%;
+  position: absolute;
+  height: 7%;
+  font-size: 1.5rem;
+  border-radius: 15%;
+  CURSOR:pointer;
+}
+
+button:hover{
+  background-color: rgb(237, 205, 100);
+  cursor: pointer;
+}
+
+h2{
+  margin: 1rem;
+  color:rgb(255, 255, 255);
+  font-family: "montserrat";
+  font-size: xx-large;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+h2:hover
+{
+  color: pink;
+  cursor: pointer;
+}
+h3{
+  color :white;
+}
+p{
+  color:white;
+}
+loaders{
+  color:black;
+  font-family: "Serif";
+  font-weight:bolder;
+  font-size: 100%;
+  
+}
+
+h6{
+  margin: 1rem;
+  color:rgb(255, 255, 255);
+  font-family: "montserrat";
+  font-size: xx-large;
+  padding-top: 60px;
+  padding-right:120px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+
+}
+h6:hover
+{
+  color: rgb(192, 255, 243);
+  cursor: pointer;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin:1rem;
+  padding: 10px 90px;
+}
+
+.card{
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-image:url("./win3.jpg");
+  backdrop-filter: blur(15px);
+  border-radius: 10%;
+}
+.card:hover{
+  background-color: #B8DFD8;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+img{
+  border-radius: 100%;
+  margin: 2rem 0rem 1rem 0rem;
+}
